@@ -1,0 +1,279 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "name": "Shield",
+      "cost": 1,
+      "power": 2,
+      "Color": "#FF696D",
+      "ability": {
+        "type": "GainPoints",
+        "value": 1
+      }
+    },
+    {
+      "id": 2,
+      "name": "Guard",
+      "cost": 1,
+      "power": 1,
+      "Color": "#47C8BE",
+      "ability": {
+        "type": "StealPoints",
+        "value": 1
+      }
+    },
+    {
+      "id": 3,
+      "name": "Knight",
+      "cost": 1,
+      "power": 3,
+      "Color": "#FFE573",
+      "ability": {
+        "type": "DoublePower",
+        "value": 1
+      }
+    },
+    {
+      "id": 4,
+      "name": "Mercenary",
+      "cost": 1,
+      "power": 3,
+      "Color": "#D8AFFF",
+      "ability": {
+        "type": "DrawExtraCard",
+        "value": 1
+      }
+    },
+    {
+      "id": 5,
+      "name": "Crimson Gaurd",
+      "cost": 1,
+      "power": 3,
+      "Color": "#86DDFB",
+      "ability": {
+        "type": "DiscardOpponentRandomCard",
+        "value": 1
+      }
+    },
+    {
+      "id": 6,
+      "name": "Spellcaster",
+      "cost": 1,
+      "power": 1,
+      "Color": "#D8AFFF",
+      "ability": {
+        "type": "DrawExtraCard",
+        "value": 1
+      }
+    },
+    {
+      "id": 7,
+      "name": "Mage",
+      "cost": 2,
+      "power": 3,
+      "Color": "#86DDFB",
+      "ability": {
+        "type": "DestroyOpponentCardInPlay",
+        "value": 1
+      }
+    },
+    {
+      "id": 8,
+      "name": "Healer",
+      "cost": 2,
+      "power": 2,
+      "Color": "#9BF866",
+      "ability": {
+        "type": "DoublePower",
+        "value": 2
+      }
+    },
+    {
+      "id": 9,
+      "name": "Crimson Knight",
+      "cost": 2,
+      "power": 3,
+      "Color": "#47C8BE",
+      "ability": {
+        "type": "DestroyOpponentCardInPlay",
+        "value": 1
+      }
+    },
+    {
+      "id": 10,
+      "name": "Swordsman",
+      "cost": 2,
+      "power": 2,
+      "Color": "#FF696D",
+      "ability": {
+        "type": "DrawExtraCard",
+        "value": 1
+      }
+    },
+    {
+      "id": 11,
+      "name": "Witch",
+      "cost": 3,
+      "power": 4,
+      "Color": "#D8AFFF",
+      "ability": {
+        "type": "DiscardOpponentRandomCard",
+        "value": 1
+      }
+    },
+    {
+      "id": 12,
+      "name": "Support",
+      "cost": 3,
+      "power": 2,
+      "Color": "#9BF866",
+      "ability": {
+        "type": "DoublePower",
+        "value": 1
+      }
+    },
+    {
+      "id": 13,
+      "name": "Thief",
+      "cost": 3,
+      "power": 3,
+      "Color": "#FF696D",
+      "ability": {
+        "type": "StealPoints",
+        "value": 2
+      }
+    },
+    {
+      "id": 14,
+      "name": "Summmoner",
+      "cost": 3,
+      "power": 3,
+      "Color": "#FFE573",
+      "ability": {
+        "type": "GainPoints",
+        "value": 2
+      }
+    },
+    {
+      "id": 15,
+      "name": "Magic Swordsman",
+      "cost": 3,
+      "power": 4,
+      "Color": "#D8AFFF",
+      "ability": {
+        "type": "DiscardOpponentRandomCard",
+        "value": 1
+      }
+    },
+    {
+      "id": 16,
+      "name": "Griffin Rider",
+      "cost": 4,
+      "power": 5,
+      "Color": "#9BF866",
+      "ability": {
+        "type": "DoublePower",
+        "value": 2
+      }
+    },
+    {
+      "id": 17,
+      "name": "Crusader",
+      "cost": 4,
+      "power": 3,
+      "Color": "#FF696D",
+      "ability": {
+        "type": "DrawExtraCard",
+        "value": 2
+      }
+    },
+    {
+      "id": 18,
+      "name": "Pyre Archon",
+      "cost": 4,
+      "power": 3,
+      "Color": "#FFE573",
+      "ability": {
+        "type": "GainPoints",
+        "value": 3
+      }
+    },
+    {
+      "id": 19,
+      "name": "Dark Mage",
+      "cost": 4,
+      "power": 4,
+      "Color": "#FF696D",
+      "ability": {
+        "type": "StealPoints",
+        "value": 3
+      }
+    },
+    {
+      "id": 20,
+      "name": "Chronos Mage",
+      "cost": 5,
+      "power": 5,
+      "Color": "#47C8BE",
+      "ability": {
+        "type": "DiscardOpponentRandomCard",
+        "value": 2
+      }
+    },
+    {
+      "id": 19,
+      "name": "Assassin",
+      "cost": 5,
+      "power": 5,
+      "Color": "#D8AFFF",
+      "ability": {
+        "type": "StealPoints",
+        "value": 5
+      }
+    },
+    {
+      "id": 21,
+      "name": "Priest",
+      "cost": 5,
+      "power": 5,
+      "Color": "#9BF866",
+      "ability": {
+        "type": "DoublePower",
+        "value": 2
+      }
+    },
+    {
+      "id": 22,
+      "name": "Swordmaster",
+      "cost": 6,
+      "power": 6,
+      "Color": "#D8AFFF",
+      "ability": {
+        "type": "GainPoints",
+        "value": 6
+      }
+    },
+    {
+      "id": 23,
+      "name": "Sage",
+      "cost": 6,
+      "power": 6,
+      "Color": "#FF696D",
+      "ability": {
+        "type": "DiscardOpponentRandomCard",
+        "value": 2
+      }
+    },
+    {
+      "id": 24,
+      "name": "Arc Mage",
+      "cost": 6,
+      "power": 6,
+      "Color": "#FFE573",
+      "ability": {
+        "type": "GainPoints",
+        "value": 6
+      }
+    }
+  ]
+}

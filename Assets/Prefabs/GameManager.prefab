@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6047399245571137009
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4406556285742275298}
+  - component: {fileID: 8671802582355128431}
+  - component: {fileID: 7487424039270077355}
+  - component: {fileID: 4062047596931353186}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4406556285742275298
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6047399245571137009}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 312.3132, y: 693.4342, z: -3.454358}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8671802582355128431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6047399245571137009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1692b43fc79b80c4fa2dc67748264013, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allCards: []
+  playerReveledCards: []
+  opponentReveledCards: []
+  playerDeckCards: []
+  playerCardPrefab: {fileID: 7648513007466989432, guid: 9207eb11299b44047a7df6f774ad7c2c, type: 3}
+  card:
+    id: 0
+    name: 
+    cost: 0
+    power: 0
+    Color: 
+    ability:
+      type: 
+      value: 0
+  playerHandCardsPos: {fileID: 0}
+  PlayeReveledCardsPos: {fileID: 0}
+  OpponentReveledCardsPos: {fileID: 0}
+  revealCardPrefab: {fileID: 6025037590248693456, guid: a160632c41e11f049ba6f42a66bd44a4, type: 3}
+  playerHandCardsData: []
+  selectedCard: {fileID: 0}
+--- !u!114 &7487424039270077355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6047399245571137009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adf325b451949e643a5e0486dd1efbc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4062047596931353186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6047399245571137009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14423445e060c8b4987f0ee924d6d5ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turnLeft: 1
+  opponentConnectionStatus: 
+  opponentUserName: 
+  playerUserName: 
+  isPlayerOnline: 0
+  playerConnectionStatus: 
+  uiManager: {fileID: 0}
